@@ -1,12 +1,8 @@
-export interface Funcionario {
+export interface FuncionarioListar {
     id?: number;
     nome: string;
     sobrenome: string;
     departamento: string;
     ativo: boolean;
-    turno: string;
-    dataDeCriacao?: string;
-    dataDeAlteracao?: string;
-
 
 }
